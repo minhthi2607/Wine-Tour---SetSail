@@ -1,0 +1,264 @@
+            /*Mobile and tablet*/
+            /*Mobile*/
+            
+            @media (max-width: 1023px) {
+                .header,
+                .header__nav-menu,
+                .header__logo,
+                .prev,
+                .next {
+                    display: none;
+                }
+                .slideshow-container {
+                    margin-top: 80px;
+                }
+                .header__mobile {
+                    background-color: var(--blue-color);
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 20px;
+                    position: fixed;
+                    z-index: 10;
+                    width: 100%;
+                }
+                .mobile__logo-img {
+                    width: 100%;
+                    height: 36px;
+                }
+                .header__mobile-icon {
+                    cursor: pointer;
+                    color: var(--white-color);
+                    font-size: 25px;
+                    opacity: 0.8;
+                }
+                .header__mobile-user {
+                    color: var(--white-color);
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+                .mySide__flex {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 30px;
+                }
+                .img__size {
+                    width: 100%;
+                    height: 100%;
+                }
+                .img__size-2 {
+                    margin-top: 30px;
+                    width: 100%;
+                    height: 100%;
+                }
+                .mySide__text {
+                    position: absolute;
+                    top: 145px;
+                    left: 70px;
+                }
+                .img__size-text {
+                    width: 220px;
+                    height: 100px;
+                }
+                .popular__tour {
+                    flex-direction: column;
+                    padding: 0px;
+                }
+                .popular__tour-img {
+                    padding: 70px 30px 40px 30px;
+                }
+                .tour__mobile-img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .popular__tour-chart {
+                    padding: 0 30px;
+                    margin: 0px;
+                }
+                .popular__banner {
+                    padding: 100px 30px 0px 30px;
+                }
+                .best__tour-container {
+                    padding: 108px 30px 0px 30px;
+                    margin: 0px;
+                }
+                .best__tour-heading {
+                    font-size: 35px;
+                }
+                .number__container {
+                    flex-direction: column;
+                    padding: 110px 30px 100px;
+                }
+                .video__image {
+                    padding: 0px 30px;
+                }
+                .video__icon {
+                    top: 20%;
+                    left: 40%;
+                }
+                .video__play {
+                    width: 330px;
+                    height: 300px;
+                }
+                .padding {
+                    padding: 0px 30px;
+                }
+                .tour__img {
+                    height: auto;
+                }
+                .text__position {
+                    bottom: 6.5%;
+                }
+                .tour__info {
+                    padding: 0px 30px;
+                }
+                .tour__info-heading {
+                    font-size: 28px;
+                }
+                .tour__info-desc {
+                    flex-direction: column;
+                }
+                .tour__container {
+                    flex-direction: column;
+                }
+                .tour__info-img {
+                    padding: 0px 30px;
+                    margin-top: 20px;
+                }
+                .info__desc {
+                    padding: 0px 0px 30px 0px;
+                }
+                .footer {
+                    padding: 106px 40px 78px 40px;
+                }
+                .height-mobile {
+                    margin-top: 40px;
+                }
+                /* navbar__menu */
+                .nav__menu-mobile {
+                    position: absolute;
+                    top: 65px;
+                    display: none;
+                    z-index: 10;
+                    width: 100%;
+                }
+                .navbar__menu-list-mobile {
+                    list-style: none;
+                    padding: 30px;
+                    margin: 0;
+                    cursor: pointer;
+                    max-height: 60vh;
+                    overflow-y: scroll;
+                    background-color: var(--white-color);
+                }
+                .navbar__menu-item-mobile {
+                    color: var(--black-color);
+                    font-size: 15px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid #ebebeb;
+                }
+                .item__list-icon {
+                    top: auto;
+                    left: 80%;
+                }
+                .nav__menu-position-mobile {
+                    position: relative;
+                }
+                .menu__item-list-mobile {
+                    list-style: none;
+                    margin: 0px;
+                    padding: 10px 30px;
+                    background-color: var(--white-color);
+                    text-align: left;
+                    font-weight: 500;
+                    display: none;
+                    z-index: 1;
+                    animation: show__down 0.5s linear;
+                }
+                .navbar__menu-item-mobile:hover .menu__item-list-mobile {
+                    display: block;
+                }
+                .item__list-item-mobile {
+                    position: relative;
+                    border-bottom: 1px solid #ebebeb;
+                }
+                .item__list-item-mobile:hover .item__list-link,
+                .menu__second-link:hover {
+                    color: var(--blue-color);
+                }
+                .navbar__menu-link-mobile {
+                    width: auto;
+                    text-decoration: none;
+                    color: var(--black-color);
+                }
+                .navbar__menu-link-mobile:hover {
+                    color: var(--blue-color);
+                }
+                /*********************/
+                .nav__menu-mobile.open_nav-mobile {
+                    display: block;
+                }
+            }
+            /*Tablet*/
+            
+            @media (min-width: 740px) and (max-width:1023px) {
+                .img__size-text {
+                    width: 400px;
+                    height: 150px;
+                }
+                .mySide__text {
+                    position: absolute;
+                    top: 210px;
+                    left: 90px;
+                }
+                .mySide__flex {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .img__size {
+                    width: 60%;
+                    height: 350px;
+                }
+                .img__size-2 {
+                    width: 35%;
+                    height: 350px;
+                    margin-top: 0px;
+                }
+                .img__size-text {
+                    width: 240px;
+                    height: 120px;
+                }
+                .tour__mobile-img {
+                    width: auto;
+                    height: auto;
+                }
+                .tour__tablet-img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .tour__img {
+                    height: 100%;
+                }
+                .video__icon {
+                    top: 40%;
+                    left: 45%;
+                }
+                .video__play {
+                    width: 650px;
+                    height: 500px;
+                }
+                .info__desc-text {
+                    font-size: 16px;
+                }
+                .height-mobile {
+                    margin-top: 0px;
+                }
+            }
+            /* pc */
+            
+            @media (min-width: 1024px) {
+                .nav__menu-mobile,
+                .header__mobile {
+                    display: none;
+                }
+            }
